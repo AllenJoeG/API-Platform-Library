@@ -1,0 +1,32 @@
+﻿namespace API_Platform_Library.Models.Tarot
+{
+    public enum Value
+    {
+        Zero,
+        One,
+        Two,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Eight,
+        Nine,
+        Ten,
+        Eleven,
+        Twelve,
+        Thirteen,
+        Fourteen,
+        Fifteen,
+        Sixteen,
+        Seventeen,
+        Eightteen,
+        Nineteen,
+        Twenty,
+        Twentyone,
+        Daughter,
+        Son,
+        Woman,
+        Man
+    }
+}
