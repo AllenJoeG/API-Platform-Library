@@ -1,4 +1,6 @@
-﻿namespace API_Platform_Library.Models.Tarot
+﻿using Newtonsoft;
+
+namespace API_Platform_Library.Models.Tarot
 {
     public class EkelenSchema
     {
