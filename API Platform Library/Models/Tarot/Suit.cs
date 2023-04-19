@@ -5,6 +5,7 @@
         Wands,
         Cups,
         Swords,
-        Pentacles
+        Pentacles,
+        Major
     }
 }

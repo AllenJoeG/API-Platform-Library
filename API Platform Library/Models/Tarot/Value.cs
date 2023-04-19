@@ -20,7 +20,7 @@
         Fifteen,
         Sixteen,
         Seventeen,
-        Eightteen,
+        Eighteen,
         Nineteen,
         Twenty,
         Twentyone,
