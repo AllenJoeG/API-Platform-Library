@@ -4,6 +4,7 @@ namespace API_Platform_Library.Models.Tarot
 {
     public class EkelenSchema
     {
+        public int ID { get; set; }
         public string name { get; set; }
         public string name_short { get; set; }
         public string value { get; set; }

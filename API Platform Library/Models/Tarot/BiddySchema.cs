@@ -2,6 +2,7 @@
 {
     public class BiddySchema
     {
+        public int ID { get; set; }
         public string name { get; set; }
         public string value { get; set; }
         public int value_int { get; set; }
