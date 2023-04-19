@@ -22,7 +22,9 @@ namespace API_Platform_Library.Models.Tarot
         public string? EkelenMeaningUp { get; set; }
         public string? EkelenMeaningInv { get; set; }
         public string? EkelenDescription { get; set; }
-
+        public string? BiddyMeaningUp { get; set; }
+        public string? BiddyMeaningInv { get; set; }
+        public string? BiddyDescription { get; set; }
 
     }
 }
