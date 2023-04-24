@@ -1,4 +1,4 @@
-﻿namespace API_Platform_Library.Models.Tarot
+﻿namespace API_Platform_Library.Models.Tarot.Enums
 {
     public enum Tetragrammaton
     {
@@ -21,8 +21,8 @@
         Samekh,
         Resh,
         Tzaddi,
-        Shin, 
-        Tau, 
+        Shin,
+        Tau,
         Qoph
     }
 }

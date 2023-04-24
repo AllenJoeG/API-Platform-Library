@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Linq.Expressions;
+using API_Platform_Library.Models.Tarot.Enums;
 
 namespace API_Platform_Library.Models.Tarot
 {
@@ -34,6 +35,8 @@ namespace API_Platform_Library.Models.Tarot
         [Required]
         [Display(Name = "Is Court?")]
         public bool Court { get; set; }
+        
+
         public string HermeticName { get; set; }
         public string HermeticTitle { get; set; }
         public string HermeticMeaningUp { get; set; }
