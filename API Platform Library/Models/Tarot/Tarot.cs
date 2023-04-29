@@ -20,6 +20,14 @@ namespace API_Platform_Library.Models.Tarot
         [Display(Name = "Suit")]
         public Suit Suit { get; set; }
 
+        [Required]
+        [Display(Name = "Rider-Waite Image")]
+        public RWImage RWImage { get; set; }
+
+        [Required]
+        [Display(Name = "Is Court?")]
+        public bool Court { get; set; }
+
         [Display(Name = "Elemental Signature")]
         public Element? Element { get; set; }
 
@@ -31,11 +39,6 @@ namespace API_Platform_Library.Models.Tarot
 
         [Display(Name = "Association Chain")]
         public Tetragrammaton? Tetragrammaton { get; set; }
-
-        [Required]
-        [Display(Name = "Is Court?")]
-        public bool Court { get; set; }
-        
 
         public string HermeticName { get; set; }
         public string HermeticTitle { get; set; }
