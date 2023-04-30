@@ -1,7 +1,9 @@
+using API_Platform_Library.DAL;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // DB Context
-//builder.Services.AddDbContext
+builder.Services.AddDbContext<ApiPlatformContext>();
 
 // Add services to the container.
 builder.Services.AddControllers();
