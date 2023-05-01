@@ -11,7 +11,7 @@ namespace API_Platform_Library.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=MEOWMERGEMKIV; Database=ApiPlatformDB; Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=MEOWMERGEMKIV; Database=ApiPlatformDB; TrustServerCertificate=True; Encrypt=False; Trusted_Connection=True;");
         }
     }
 }
