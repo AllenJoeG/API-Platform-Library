@@ -3,6 +3,7 @@
     [Flags]
     public enum Astrology
     {
+        None = 0,
         Sun = 1,
         Moon = 2,
         Mercury = 4,

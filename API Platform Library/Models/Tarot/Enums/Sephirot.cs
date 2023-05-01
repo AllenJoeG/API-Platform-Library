@@ -2,6 +2,7 @@
 {
     public enum Sephirot
     {
+        None = 0,
         Kether = 1,
         Binah,
         Chokmah,
