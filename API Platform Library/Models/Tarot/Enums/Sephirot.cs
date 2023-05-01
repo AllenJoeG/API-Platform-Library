@@ -4,13 +4,13 @@
     {
         None = 0,
         Kether = 1,
-        Binah,
         Chokmah,
-        Geburah,
+        Binah,
         Chesed,
+        Geburah,
         Tiphareth,
-        Hod,
         Netzach,
+        Hod,
         Yesod,
         Malkuth
     }
