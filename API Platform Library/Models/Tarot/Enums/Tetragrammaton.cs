@@ -2,7 +2,7 @@
 {
     public enum Tetragrammaton
     {
-        Aleph,
+        Aleph = 1,
         Beth,
         Daleth,
         Cheth,

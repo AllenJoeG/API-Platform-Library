@@ -2,7 +2,7 @@
 {
     public enum Arcana
     {
-        Major,
+        Major = 1,
         Minor
     }
 }

@@ -2,7 +2,7 @@
 {
     public enum Suit
     {
-        Wands,
+        Wands = 1,
         Cups,
         Swords,
         Pentacles,
