@@ -28,19 +28,23 @@ namespace API_Platform_Library.Models.Tarot
         [Display(Name = "Is Court?")]
         public bool Court { get; set; }
 
+        [Required]
         [Display(Name = "Elemental Signature")]
-        public Element? Element { get; set; }
+        public Element Element { get; set; }
 
+        [Required]
         [Display(Name = "Astrological Correlates")]
-        public Astrology? Astrology { get; set; }
+        public Astrology Astrology { get; set; }
 
+        [Required]
         [Display(Name = "Tree of Life")]
-        public Sephirot? Sephirot { get; set; }
+        public Sephirot Sephirot { get; set; }
 
+        [Required]
         [Display(Name = "Association Chain")]
-        public Tetragrammaton? Tetragrammaton { get; set; }
+        public Tetragrammaton Tetragrammaton { get; set; }
 
-        public string HermeticName { get; set; }
+        public string CardName { get; set; }
         public string HermeticTitle { get; set; }
         public string HermeticMeaningUp { get; set; }
         public string HermeticMeaningInv { get; set; }

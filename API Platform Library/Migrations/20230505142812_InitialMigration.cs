@@ -5,7 +5,7 @@
 namespace API_Platform_Library.Migrations
 {
     /// <inheritdoc />
-    public partial class ApiPlatform : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,11 +21,11 @@ namespace API_Platform_Library.Migrations
                     Suit = table.Column<int>(type: "int", nullable: false),
                     RWImage = table.Column<int>(type: "int", nullable: false),
                     Court = table.Column<bool>(type: "bit", nullable: false),
-                    Element = table.Column<int>(type: "int", nullable: true),
-                    Astrology = table.Column<int>(type: "int", nullable: true),
-                    Sephirot = table.Column<int>(type: "int", nullable: true),
-                    Tetragrammaton = table.Column<int>(type: "int", nullable: true),
-                    HermeticName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Element = table.Column<byte>(type: "BINARY(5)", nullable: false),
+                    Astrology = table.Column<byte>(type: "BINARY(50)", nullable: false),
+                    Sephirot = table.Column<byte>(type: "BINARY(50)", nullable: false),
+                    Tetragrammaton = table.Column<byte>(type: "BINARY(50)", nullable: false),
+                    CardName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     HermeticTitle = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     HermeticMeaningUp = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     HermeticMeaningInv = table.Column<string>(type: "nvarchar(max)", nullable: false),

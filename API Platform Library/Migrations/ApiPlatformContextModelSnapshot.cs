@@ -32,7 +32,7 @@ namespace API_Platform_Library.Migrations
                     b.Property<int>("Arcana")
                         .HasColumnType("int");
 
-                    b.Property<int?>("Astrology")
+                    b.Property<int>("Astrology")
                         .HasColumnType("int");
 
                     b.Property<string>("BiddyDescription")
@@ -42,6 +42,10 @@ namespace API_Platform_Library.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("BiddyMeaningUp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CardName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Court")
@@ -59,7 +63,7 @@ namespace API_Platform_Library.Migrations
                     b.Property<string>("EkelenName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("Element")
+                    b.Property<int>("Element")
                         .HasColumnType("int");
 
                     b.Property<string>("HermeticDescription")
@@ -74,10 +78,6 @@ namespace API_Platform_Library.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("HermeticName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("HermeticTitle")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -85,13 +85,13 @@ namespace API_Platform_Library.Migrations
                     b.Property<int>("RWImage")
                         .HasColumnType("int");
 
-                    b.Property<int?>("Sephirot")
+                    b.Property<int>("Sephirot")
                         .HasColumnType("int");
 
                     b.Property<int>("Suit")
                         .HasColumnType("int");
 
-                    b.Property<int?>("Tetragrammaton")
+                    b.Property<int>("Tetragrammaton")
                         .HasColumnType("int");
 
                     b.Property<int>("Value")
