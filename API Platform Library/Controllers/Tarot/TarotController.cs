@@ -1,5 +1,7 @@
 ﻿using API_Platform_Library.DAL;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using System.Text.Encodings.Web;
 
 namespace API_Platform_Library.Controllers.Tarot
@@ -12,6 +14,7 @@ namespace API_Platform_Library.Controllers.Tarot
         public TarotController(ApiPlatformContext context)
         {
             _context = context;
+            Console.WriteLine(_context.Tarot);
         }
 
 
@@ -36,5 +39,4 @@ namespace API_Platform_Library.Controllers.Tarot
 
         }
     }
-
 }
