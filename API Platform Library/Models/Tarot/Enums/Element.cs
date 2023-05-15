@@ -4,7 +4,6 @@ using Newtonsoft.Json.Converters;
 namespace API_Platform_Library.Models.Tarot.Enums
 {
     [Flags]
-    [JsonConverter(typeof(StringEnumConverter))]
     public enum Element
     {
         None = 0,

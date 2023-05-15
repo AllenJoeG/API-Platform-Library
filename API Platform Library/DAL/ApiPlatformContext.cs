@@ -8,6 +8,7 @@ namespace API_Platform_Library.DAL
         public ApiPlatformContext(DbContextOptions<ApiPlatformContext> options) : base(options) { }
 
         public DbSet<Models.Tarot.Tarot> Tarot { get; set; }
+        public DbSet<Models.Tarot.EkelenSchema> Ekelen { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
