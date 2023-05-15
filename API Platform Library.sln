@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API Platform Library", "API Platform Library\API Platform Library.csproj", "{D7C79C8E-0E8F-4416-830D-54EE45B4808D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API Platform Library", "API Platform Library\API Platform Library.csproj", "{D7C79C8E-0E8F-4416-830D-54EE45B4808D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{82B616AF-7670-4D25-931F-BE0A3367FF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReRiskR.Core", "ReRiskR.Core\ReRiskR.Core.csproj", "{11D6688A-83AE-4D1C-8A85-EB03FD41C183}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{D7C79C8E-0E8F-4416-830D-54EE45B4808D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7C79C8E-0E8F-4416-830D-54EE45B4808D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7C79C8E-0E8F-4416-830D-54EE45B4808D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D6688A-83AE-4D1C-8A85-EB03FD41C183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D6688A-83AE-4D1C-8A85-EB03FD41C183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D6688A-83AE-4D1C-8A85-EB03FD41C183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D6688A-83AE-4D1C-8A85-EB03FD41C183}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11D6688A-83AE-4D1C-8A85-EB03FD41C183} = {82B616AF-7670-4D25-931F-BE0A3367FF5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DBD7555C-716A-40A7-AFC6-3BE99641D802}
