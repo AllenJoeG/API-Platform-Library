@@ -20,6 +20,7 @@ namespace ReRiskR.Core.DataService.EFCore
 
         public virtual async Task<TEntity> GetById<TId>(TId id)
         {
+            //Only queries DB if the id can't be found in the DbContext
             return await DbContext.Set<TEntity>().FindAsync(id);
         }
 
@@ -43,7 +44,6 @@ namespace ReRiskR.Core.DataService.EFCore
             await DbContext.SaveChangesAsync();
 
             return obj.Entity;
-
         }
 
         public virtual async Task Delete(TEntity entity)
@@ -53,6 +53,5 @@ namespace ReRiskR.Core.DataService.EFCore
 
             //Note, doesn't return an EntityEntry
         }
-
     }
 }
