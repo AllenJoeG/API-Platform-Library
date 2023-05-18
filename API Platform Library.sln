@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API Platform Library", "API
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{82B616AF-7670-4D25-931F-BE0A3367FF5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReRiskR.Core", "ReRiskR.Core\ReRiskR.Core.csproj", "{11D6688A-83AE-4D1C-8A85-EB03FD41C183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReRiskR.Core", "ReRiskR.Core\ReRiskR.Core.csproj", "{11D6688A-83AE-4D1C-8A85-EB03FD41C183}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test.Core", "Test.Core", "{4D940D5F-7F4C-43B3-8A03-F75B761771B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReRiskR.Test.Core", "ReRiskR.Test.Core\ReRiskR.Test.Core.csproj", "{9F7F26FC-778A-4C6C-967A-55F7D1A33C15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,18 @@ Global
 		{11D6688A-83AE-4D1C-8A85-EB03FD41C183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11D6688A-83AE-4D1C-8A85-EB03FD41C183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11D6688A-83AE-4D1C-8A85-EB03FD41C183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7F26FC-778A-4C6C-967A-55F7D1A33C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7F26FC-778A-4C6C-967A-55F7D1A33C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7F26FC-778A-4C6C-967A-55F7D1A33C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7F26FC-778A-4C6C-967A-55F7D1A33C15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{11D6688A-83AE-4D1C-8A85-EB03FD41C183} = {82B616AF-7670-4D25-931F-BE0A3367FF5B}
+		{4D940D5F-7F4C-43B3-8A03-F75B761771B0} = {82B616AF-7670-4D25-931F-BE0A3367FF5B}
+		{9F7F26FC-778A-4C6C-967A-55F7D1A33C15} = {4D940D5F-7F4C-43B3-8A03-F75B761771B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DBD7555C-716A-40A7-AFC6-3BE99641D802}
