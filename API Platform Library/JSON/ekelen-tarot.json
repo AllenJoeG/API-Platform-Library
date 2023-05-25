@@ -1,6 +1,4 @@
-// Source https://github.com/ekelen/tarot-api/blob/main/static/card_data.json
 {
-  "nhits": 78,
   "cards": [
     {
       "type": "major",
